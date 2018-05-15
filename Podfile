@@ -7,4 +7,5 @@ target 'Demo' do
 
   # Pods for Demo
   pod 'Vendor', :path => './Vendor'
+  pod 'Lift'
 end

@@ -1,0 +1,6 @@
+framework module Lift {
+  umbrella header "Lift-umbrella.h"
+
+  export *
+  module * { export * }
+}

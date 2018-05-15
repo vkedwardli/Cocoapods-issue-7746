@@ -1,16 +1,23 @@
 PODS:
+  - Lift (2.0.0)
   - Vendor (1.0.0)
 
 DEPENDENCIES:
+  - Lift
   - Vendor (from `./Vendor`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Lift
 
 EXTERNAL SOURCES:
   Vendor:
     :path: "./Vendor"
 
 SPEC CHECKSUMS:
+  Lift: d31665bc9171e9b105b0d638ff3c6ee918918f96
   Vendor: f3f6ab0a8a4509d1c6ba7230f10f7ac3a68d1944
 
-PODFILE CHECKSUM: e6a70e607180a36e6dca9599187c0ebd89ced185
+PODFILE CHECKSUM: a15f0f76972ed541d704d1145829d35a737582e8
 
 COCOAPODS: 1.5.2
