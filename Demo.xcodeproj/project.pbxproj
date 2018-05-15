@@ -277,6 +277,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Lift/Lift.framework",
 				"${PODS_ROOT}/../Vendor/Vendor.framework",
+				"${BUILT_PRODUCTS_DIR}/Vendor/Vendor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -297,6 +298,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Demo2/Pods-Demo2-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Lift/Lift.framework",
 				"${PODS_ROOT}/../Vendor/Vendor.framework",
+				"${BUILT_PRODUCTS_DIR}/Vendor/Vendor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

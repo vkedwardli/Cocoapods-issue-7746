@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '11.3'
     s.source = { :path => '.' }
     s.ios.vendored_frameworks = 'Vendor.framework'
-    #s.script_phase = {
-    #    :name => "echo",
-    #    :script => 'echo "Hello, World!"',
-    #    :execution_position => :before_compile
-    #}
+    s.script_phase = {
+        :name => "echo",
+        :script => 'echo "Hello, World!"',
+        :execution_position => :before_compile
+    }
 
 end
 

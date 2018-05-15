@@ -18,5 +18,10 @@
   },
   "ios": {
     "vendored_frameworks": "Vendor.framework"
+  },
+  "script_phases": {
+    "name": "echo",
+    "script": "echo \"Hello, World!\"",
+    "execution_position": "before_compile"
   }
 }
