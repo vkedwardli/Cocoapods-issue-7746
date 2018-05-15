@@ -1,0 +1,22 @@
+{
+  "name": "Vendor",
+  "version": "1.0.0",
+  "platforms": {
+    "ios": "11.3"
+  },
+  "summary": "Vendor",
+  "homepage": "https://www.cocoanut.com/",
+  "authors": {
+    "Name": "Vendor"
+  },
+  "license": {
+    "type": "Apache-2.0"
+  },
+  "swift_version": "4.1",
+  "source": {
+    "path": "."
+  },
+  "ios": {
+    "vendored_frameworks": "Vendor.framework"
+  }
+}

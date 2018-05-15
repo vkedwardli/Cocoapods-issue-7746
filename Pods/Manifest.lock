@@ -1,0 +1,16 @@
+PODS:
+  - Vendor (1.0.0)
+
+DEPENDENCIES:
+  - Vendor (from `./Vendor`)
+
+EXTERNAL SOURCES:
+  Vendor:
+    :path: "./Vendor"
+
+SPEC CHECKSUMS:
+  Vendor: f3f6ab0a8a4509d1c6ba7230f10f7ac3a68d1944
+
+PODFILE CHECKSUM: e6a70e607180a36e6dca9599187c0ebd89ced185
+
+COCOAPODS: 1.5.2

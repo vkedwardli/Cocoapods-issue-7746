@@ -1,0 +1,11 @@
+framework module Vendor {
+  umbrella header "Vendor.h"
+
+  export *
+  module * { export * }
+}
+
+module Vendor.Swift {
+    header "Vendor-Swift.h"
+    requires objc
+}
