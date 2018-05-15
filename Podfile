@@ -9,3 +9,12 @@ target 'Demo' do
   pod 'Vendor', :path => './Vendor'
   pod 'Lift'
 end
+
+target 'Demo2' do
+  # Comment the next line if you're not using Swift and don't want to use dynam$
+  use_frameworks!
+
+  # Pods for Demo
+  pod 'Vendor', :path => './Vendor'
+  pod 'Lift'
+end
